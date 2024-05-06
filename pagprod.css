@@ -1,0 +1,95 @@
+.return {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #fff;
+  height: 25px;
+
+}
+
+.img_prod img {
+  width: 680px;
+  height: 680px;
+  border-radius: 25px;
+}
+
+.img_prod {
+  margin-left: 0px; /* Reduza a margem esquerda para diminuir a distância da imagem à lateral esquerda da tela */
+  margin-top: 50px;
+  margin-right: 1px;
+  margin-bottom: 20px;
+  width: 650px;
+  height: 650px;
+  border-radius: 25px;
+}
+
+
+.desc {
+  width: 50%;
+  /* Define a largura do texto */
+  flex: 1;
+  /* Ocupa o espaço restante */
+
+}
+
+.conteiner {
+  display: flex;
+  /* Adiciona espaço entre os elementos */
+  align-items: flex-start;
+  /* Alinha os itens no topo */
+}
+
+.desc {
+  height: 170px;
+  width: 800px;
+  margin-bottom: 10px;
+  /* Espaçamento entre a descrição e os radio buttons */
+}
+
+.desc h2 {
+
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.desc p {
+  font-size: 28px;
+}
+
+.conteiner2 {
+  background-color: #5757577e;
+  border-radius: 1rem;
+  width: calc(50% - 50px);
+  /* Define a largura para ocupar metade do espaço disponível */
+  margin-top: 50px;
+  /* Ajusta o espaçamento conforme necessário */
+  padding: 20px;
+  /* Adiciona algum espaçamento interno */
+  margin-left: 90px ;
+}
+
+.conteiner3 {
+
+  margin-left: 20px;
+}
+
+.tamanho {
+  display: flex;
+  /* Organiza os radio buttons lado a lado */
+}
+
+.tam {
+  margin-bottom: 5px;
+  font-size: 35px;
+}
+
+.frete {
+  margin-top: 10px;
+}
+
+.buttons {
+
+  margin-top: 30px;
+  margin: 15px;
+}
